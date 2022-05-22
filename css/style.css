@@ -334,6 +334,17 @@ body {
     left: -5px;
 }
 
+@media (max-width:  820px)  {
+    .statistics-items {
+        flex-wrap: wrap;
+    }
+
+    .statistics-item {
+        padding: 50px;
+    }
+}
+
+
 @media (max-width:  410px) {
     .logo img {
         width: 200px;
@@ -355,5 +366,17 @@ body {
 
     .menu__list ul {
         width: 100%;
+    }
+
+    .statistics-item {
+        padding: 25px 0;
+    }
+
+    .statistics {
+        margin: 110px 0 50px ;
+    }
+
+    .button {
+        padding: 20px 45px;
     }
 }
