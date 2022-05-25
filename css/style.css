@@ -471,4 +471,12 @@ body {
     .advantages__text {
         width: 100%;
     }
+
+    .footer {
+        padding: 50px 0 20px;
+    }
+
+    .footer-btn {
+        margin-bottom: 40px;
+    }    
 }
